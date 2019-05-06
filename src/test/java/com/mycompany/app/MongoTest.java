@@ -20,6 +20,7 @@ public class MongoTest
     public void testBasicMongo() {
          MongoClient mongoClient = MongoClients.create();
          MongoDatabase db = mongoClient.getDatabase("javatestdb");
+         db.createCollection("simple_collection");
     }
 
 }
