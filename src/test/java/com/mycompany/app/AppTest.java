@@ -41,8 +41,9 @@ public class AppTest
     }
 
     @Test
-    public void testNew(){
-        assertEqual(True, True)
+    public void testNew()
+    {
+        assertEquals(true, true);
     }
 
     @After
